@@ -23,9 +23,10 @@ jobs:
     steps:
       - name: Printing Custom Message
         run: |
-           echo "The custom message is: ${{ github.inputs.custom_message }}"
+           echo "The custom message is: ${{ inputs.custom_message }}"
     
     
 
 
   
+
